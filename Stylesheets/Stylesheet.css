@@ -1,0 +1,103 @@
+nav
+{
+    background-color: gray;
+}
+
+nav ul
+{
+    text-align: center;
+    font-size: 1.2em;
+}
+
+nav ul li
+{
+    list-style-type: none;
+    background-color: gray;
+    display: inline;
+}
+
+nav ul li
+{
+    color: white;
+    text-decoration: none;
+}
+
+nav
+{
+    padding: 5px;
+}
+
+nav ul li
+{
+    padding: 15px;
+    margin: 5px;
+    border: 2px solid red;
+    border-radius: 10px;
+}
+
+nav ul li:hover
+{
+    background-color: red;
+}
+
+header
+{
+    background-color: black;
+    padding: 10px;
+}
+
+footer
+{
+    background-color: gray;
+    clear:both;
+    width: 100%;
+    position: relative;
+    bottom: 0px;
+    margin: 0;
+    padding: 0;
+    border: 1px solid red;
+    text-align: center;
+}
+
+footer ul li
+{
+    list-style-type: none;
+    color: white;
+    display: inline;
+    padding: 15px;
+}
+
+footer p
+{
+    color: white;
+    text-align: center;
+}
+#active {
+    border-color: red;
+}
+
+body
+{
+    font-family: Verdana;
+    color: white;
+    background-color: black;
+    
+}
+
+section 
+{
+    float:left;
+    text-align: center;
+    width: 80%;
+    border: 1px solid gray;
+}
+aside 
+{
+    border:1px solid red;
+    float:right;
+    width:18%;
+}
+aside ul li
+{
+    list-style-type: none;
+}
