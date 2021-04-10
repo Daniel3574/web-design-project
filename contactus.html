@@ -1,0 +1,111 @@
+<!Doctype html>
+<!-- Descriptions: home page
+         Author      : Daniel Coleman
+    -->
+<html lang="en">
+<head>
+    <meta charset="utf-8">  <!-- 8-bit character encoding capable of all possible characters -->
+    <meta name="description" content="Contact Us Form">
+    <meta name="keywords" content="Motherboards, Graphics cards, power supply, RAM, Processor, Tower case">
+    <title> Contact Us </title>
+    <link rel="stylesheet" type="text/css" href="Stylesheets/Stylesheet.css">
+    </head>
+    
+    <body>
+        <header> <!--branding and navigation -->
+        <img style="float: left; margin-right: 10px;" src="Images/Logo.jpg" alt="Logo" width="110" height="110">
+        <h1>Computer Parts</h1>
+        </header>
+        <nav>
+            <ul> <!-- unordered list -->
+             <li><a href="index.html"> Home </a></li>
+             <li><a href="Shop.html">Shop</a></li>
+             <li id="active"><a href="contactus.html">Contact Us</a></li>
+             <li><a href="Services.html">Services</a></li>
+            </ul>
+        </nav>
+        <img src="Images/Contact%20us%20page%20Background%20Image.jpg" id="Contact us page background image"/>
+        
+        <p class="special"> 50% Special<br> 50% off selected items</p>
+        <p class="Easter"> 10% off all moniters</p>
+        <form name="input" action="html_form_action.asp"
+          method="get">
+        
+        Firstname: <input type="Firstname" name="Customers
+            First name">
+        LastName: <input type="Lastname" name="Customers 
+            Last name">
+        
+        <br><br>
+        Address:<br>
+        <textarea cols="50" rows="20">
+            Please Enter your address and eircode
+        </textarea>
+        <br><br>
+        
+        <p>Please choose what item you want to buy</p>
+        
+        <br>
+        
+        <input type="radio" name="Computer Parts" value="Monitor">Moniter<br>
+        <input type="radio" name="Computer Parts" value="Graphics Card">Graphics Card<br>
+        <input type="radio" name="Computer Parts" value="Motherboard">Motherboard<br>
+        <input type="radio" name="Computer Parts" value="Power supply">Power Supply<br>
+        <input type="radio" name="Computer Parts" value=RAM>RAM<br>
+        <input type="radio" name="Computer Parts" value=Processor>Processor<br>
+        <input type="radio" name="Computer Parts" value="Tower Case">Tower Case<br>
+        <input type="radio" name="Computer Parts" value=Accessories>Accessories<br>
+      
+        <br><br>
+        
+        Please choose what day/s suits you for collection
+        
+        <br>
+        
+        <input type="checkbox" name="days of the week"
+               value="monday">Monday<br>
+         <input type="checkbox" name="days of the week"
+               value="tuesday">Tuesday<br>
+         <input type="checkbox" name="days of the week"
+               value="wednesday">Wednesday<br>
+         <input type="checkbox" name="days of the week"
+               value="thursday">Thursday<br>
+         <input type="checkbox" name="days of the week"
+               value="friday">Friday<br>
+       
+        <br><br>
+        
+        Please choose a payment method:
+        
+        <br>
+        <select>
+        <option value="paypal">Paypal</option>
+        <option value="credit card">Credit card</option>
+        <option value="Cash">Cash</option>
+        </select>
+        <br><br>
+       
+        Username: <input type="text" name="Customers username">
+        Password: <input type="Password" name="Customers password">
+       
+        <br><br>
+        <input type="reset" value="Start Again">
+        <input type="submit" value="Submit">
+        <br>
+        
+        </form>
+        
+        <footer>
+        
+             <ul>
+             <li><a href="index.html"> Home </a></li>
+             <li><a href="Shop.html">Shop</a></li>
+             <li><a href="contactus.html">Contact Us</a></li>
+             <li><a href="Services.html">Services</a></li>
+            </ul>
+            
+        <small>&copy;Copyright 2021</small>
+            
+        </footer>
+        </body>
+</html>
